@@ -1,0 +1,27 @@
+{
+  "name": "@smakss/random-array-element",
+  "version": "1.0.0",
+  "description": "Select random array element without repetition.",
+  "main": "index.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMAliKSS/random-array-element.git"
+  },
+  "keywords": [
+    "npm",
+    "yarn",
+    "array",
+    "SMAKSS",
+    "random",
+    "random-index",
+    "random-array-element",
+    "random-element-without-repeat",
+    "random-array-element-without-repetition"
+  ],
+  "author": "SMAKSS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SMAliKSS/random-array-element/issues"
+  },
+  "homepage": "https://github.com/SMAliKSS/random-array-element#readme"
+}
