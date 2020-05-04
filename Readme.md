@@ -28,7 +28,7 @@ import randomArrayElement from '@smakss/random-array-element'
 
 then to use it within your application you can do it just like this:
 ```
-const chooser = randomArrayElement(['Foo', 'Bar', 'FU', 'FooBar' ]);
+const chooser = randomArrayElement(['Foo', 'Bar', 'FU', 'FooBar']);
 
 chooser() // Foo
 chooser() // Bar
