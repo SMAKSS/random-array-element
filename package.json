@@ -1,6 +1,6 @@
 {
   "name": "@smakss/random-array-element",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Selects a random array element without repetition.",
   "type": "module",
   "main": "./index.cjs",
