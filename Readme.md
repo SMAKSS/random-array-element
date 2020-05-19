@@ -20,7 +20,7 @@ to include with `ES5` or common js you can simply do this:
 var randomArrayElement = require('@smakss/random-array-element');
 ```
 
-or to include with `ES6` you simply do this one:
+or to include with `ES6` you can simply do this one:
 
 ```
 import randomArrayElement from '@smakss/random-array-element'

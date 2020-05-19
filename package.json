@@ -1,6 +1,6 @@
 {
   "name": "@smakss/random-array-element",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Selects a random array element without repetition.",
   "type": "module",
   "main": "./index.cjs",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SMAliKSS/random-array-element.git"
+    "url": "git+https://github.com/SMAKSS/random-array-element.git"
   },
   "keywords": [
     "ES5",
@@ -28,7 +28,7 @@
   "author": "SMAKSS",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SMAliKSS/random-array-element/issues"
+    "url": "https://github.com/SMAKSS/random-array-element/issues"
   },
-  "homepage": "https://github.com/SMAliKSS/random-array-element#readme"
+  "homepage": "https://github.com/SMAKSS/random-array-element#readme"
 }
