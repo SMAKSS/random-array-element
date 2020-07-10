@@ -14,13 +14,13 @@ or
 yarn add @smakss/random-array-element
 ```
 
-to include with `ES5` or common js you can simply do this:
+to include it with common js module you should do this:
 
 ```
 var randomArrayElement = require('@smakss/random-array-element');
 ```
 
-or to include with `ES6` you can simply do this one:
+and to include it with ECMAscript module you can simply do this one:
 
 ```
 import randomArrayElement from '@smakss/random-array-element'
