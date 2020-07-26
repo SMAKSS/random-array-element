@@ -30,7 +30,7 @@ then to use it within your application you can do it just like this:
 
 ```
 const chooser = randomArrayElement(['Foo', 'Bar', 'FU', 'FooBar']);
-
+// If the input was not array or was empty the chooser will be equal to -1, so chooser() will throw an error.
 chooser() // Foo
 chooser() // Bar
 chooser() // FU

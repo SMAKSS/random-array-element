@@ -1,5 +1,6 @@
 'use strict'
 function randomItemWithNoRepetition(array) {
+  if (!Array.isArray(array) || array.length === 0) return -1
   var copy = array.slice()
   return function () {
     copy.length < 1 && (copy = array.slice())
