@@ -1,5 +1,5 @@
 'use strict'
-module.exports = function randomItemWithNoRepetition(array) {
+function randomItemWithNoRepetition(array) {
   var copy = array.slice()
   return function () {
     copy.length < 1 && (copy = array.slice())
@@ -8,3 +8,5 @@ module.exports = function randomItemWithNoRepetition(array) {
     return copy.splice(index, 1), item
   }
 }
+
+module.exports = randomItemWithNoRepetition
