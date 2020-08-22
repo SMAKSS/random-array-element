@@ -1,6 +1,6 @@
 {
   "name": "@smakss/random-array-element",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Selects a random array element without repetition.",
   "type": "module",
   "main": "./index.cjs",
@@ -13,13 +13,13 @@
     "url": "git+https://github.com/SMAKSS/random-array-element.git"
   },
   "keywords": [
-    "ES5",
-    "ES6",
     "npm",
     "yarn",
     "array",
     "SMAKSS",
     "random",
+    "CommonJS",
+    "EcmaScript",
     "random-index",
     "random-array-element",
     "random-element-without-repeat",
