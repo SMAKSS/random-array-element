@@ -40,4 +40,4 @@ chooser() // Foo (only repeats once all items within the array are exhausted.)
 
 ## Demo
 
-You can check the [working demo](https://runkit.com/smakss/convert-numbers) in runkit.
+You can check the [working demo](https://runkit.com/smakss/random-array-element) in runkit.
