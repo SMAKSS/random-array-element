@@ -7,7 +7,7 @@ function randomItemWithNoRepetition(array) {
     var index = Math.floor(Math.random() * copy.length),
       item = copy[index];
     return copy.splice(index, 1), item;
-  }
+  };
 }
 
 module.exports = randomItemWithNoRepetition;
