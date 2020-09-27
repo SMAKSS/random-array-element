@@ -1,6 +1,6 @@
 {
   "name": "@smakss/random-array-element",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Selects a random array element without repetition.",
   "type": "module",
   "main": "./index.cjs",
@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/SMAKSS/random-array-element/issues"
   },
-  "homepage": "https://github.com/SMAKSS/random-array-element#readme"
+  "homepage": "https://github.com/SMAKSS/random-array-element#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
