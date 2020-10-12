@@ -8,7 +8,7 @@ In order to select an element within an array, you can simply use `Math.random()
 
 To install it you can simply do the following command:
 
-```
+```bash
 npm i @smakss/random-array-element
 or
 yarn add @smakss/random-array-element
@@ -16,13 +16,13 @@ yarn add @smakss/random-array-element
 
 to include it with common js module you should do this:
 
-```
+```js
 var randomArrayElement = require('@smakss/random-array-element');
 ```
 
 and to include it with ECMAscript module you can simply do this one:
 
-```
+```js
 import randomArrayElement from '@smakss/random-array-element';
 ```
 
