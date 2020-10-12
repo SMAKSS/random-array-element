@@ -28,14 +28,31 @@ import randomArrayElement from '@smakss/random-array-element';
 
 then to use it within your application you can do it just like this:
 
-```
-const chooser = randomArrayElement(['Foo', 'Bar', 'FU', 'FooBar']);
+```js
+const chooser = randomArrayElement();
+
+// Result: -1
 // If the input was not array or was empty the chooser will be equal to -1, so chooser() will throw an error.
-chooser(); // Foo
-chooser(); // Bar
-chooser(); // FU
-chooser(); // FooBar
-chooser(); // Foo (only repeats once all items within the array are exhausted.)
+```
+
+```js
+const chooser = randomArrayElement(['Foo', 'Bar', 'FU', 'FooBar']);
+
+chooser();
+// Result: Foo
+
+chooser();
+// Result: Bar
+
+chooser();
+// Result: FU
+
+chooser();
+// Result: FooBar
+
+chooser();
+// Result: Foo
+// Only repeats, once all items within the array are exhausted.
 ```
 
 ## Demo
