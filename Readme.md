@@ -37,6 +37,7 @@ const chooser = randomArrayElement();
 
 ```js
 const chooser = randomArrayElement(['Foo', 'Bar', 'FU', 'FooBar']);
+// Initiating the selector once and then we can use the returned function to select random none repeatable elements from the array.
 
 chooser();
 // Result: Foo
@@ -52,7 +53,7 @@ chooser();
 
 chooser();
 // Result: Foo
-// Only repeats, once all items within the array are exhausted.
+// It will only repeats, once all items within the array are exhausted.
 ```
 
 ## Demo
