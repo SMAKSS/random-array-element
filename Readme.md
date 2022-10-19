@@ -17,13 +17,13 @@ yarn add @smakss/random-array-element
 to include it with common js module you should do this:
 
 ```js
-var randomArrayElement = require('@smakss/random-array-element');
+var randomArrayElement = require("@smakss/random-array-element");
 ```
 
 and to include it with ECMAscript module you can simply do this one:
 
 ```js
-import randomArrayElement from '@smakss/random-array-element';
+import randomArrayElement from "@smakss/random-array-element";
 ```
 
 then to use it within your application you can do it just like this:
@@ -36,7 +36,7 @@ const chooser = randomArrayElement();
 ```
 
 ```js
-const chooser = randomArrayElement(['Foo', 'Bar', 'FU', 'FooBar']);
+const chooser = randomArrayElement(["Foo", "Bar", "FU", "FooBar"]);
 // Initiating the selector once and then we can use the returned function to select random none repeatable elements from the array.
 
 chooser();
@@ -59,3 +59,7 @@ chooser();
 ## Demo
 
 You can check the [working demo](https://runkit.com/smakss/random-array-element) in runkit.
+
+or
+
+[![View @smakss/random-array-element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-random-array-element-7yizos?fontsize=14&hidenavigation=1&theme=dark)

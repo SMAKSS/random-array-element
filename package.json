@@ -1,17 +1,14 @@
 {
-  "name": "@smakss/random-array-element",
-  "version": "1.2.3",
+  "author": "SMAKSS",
+  "bugs": {
+    "url": "https://github.com/SMAKSS/random-array-element/issues"
+  },
   "description": "Selects a random unique array element without repetition from provided array.",
-  "type": "module",
-  "main": "./index.cjs",
   "exports": {
     "import": "./index.mjs",
     "require": "./index.cjs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SMAKSS/random-array-element.git"
-  },
+  "homepage": "https://github.com/SMAKSS/random-array-element#readme",
   "keywords": [
     "npm",
     "yarn",
@@ -25,10 +22,13 @@
     "random-element-without-repeat",
     "random-array-element-without-repetition"
   ],
-  "author": "SMAKSS",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SMAKSS/random-array-element/issues"
+  "main": "./index.cjs",
+  "name": "@smakss/random-array-element",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMAKSS/random-array-element.git"
   },
-  "homepage": "https://github.com/SMAKSS/random-array-element#readme"
+  "type": "module",
+  "version": "1.2.4"
 }
