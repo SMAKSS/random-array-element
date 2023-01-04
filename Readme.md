@@ -4,6 +4,14 @@
 
 In order to select an element within an array, you can simply use `Math.random()` but what about when you don't want to select an element that selected before. Here this package will come to use. This package works with simple closure, so you can simply invoke randomArrayElement once everywhere in your project then use it to generate random elements from your array no matter your array is flat or nested, it will choose a random unique element from your array until all the array element get exhausted.
 
+## Demo
+
+You can check the [working demo](https://runkit.com/smakss/random-array-element) in runkit.
+
+or
+
+[![View @smakss/random-array-element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-random-array-element-7yizos?fontsize=14&hidenavigation=1&theme=dark)
+
 ## How it works?
 
 To install it you can simply do the following command:
@@ -55,11 +63,3 @@ chooser();
 // Result: Foo
 // It will only repeats, once all items within the array are exhausted.
 ```
-
-## Demo
-
-You can check the [working demo](https://runkit.com/smakss/random-array-element) in runkit.
-
-or
-
-[![View @smakss/random-array-element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-random-array-element-7yizos?fontsize=14&hidenavigation=1&theme=dark)
