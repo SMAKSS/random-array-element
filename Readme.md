@@ -63,3 +63,11 @@ chooser();
 // Result: Foo
 // It will only repeats, once all items within the array are exhausted.
 ```
+
+## Contributing
+
+Interested in making contributions to this project? Please see [CONTRIBUTING.md](https://github.com/SMAKSS/random-array-element/blob/master/.github/CONTRIBUTING.md) for guidelines and details.
+
+## Code of Conduct
+
+We value and prioritize the well-being of all our contributors and users. To ensure that this project remains a welcoming space for everyone, please refer to our [Code of Conduct](https://github.com/SMAKSS/random-array-element/blob/master/.github/CODE_OF_CONDUCT.md).
