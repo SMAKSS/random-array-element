@@ -3,7 +3,7 @@
   "bugs": {
     "url": "https://github.com/SMAKSS/random-array-element/issues"
   },
-  "description": "Selects a random unique array element without repetition from provided array.",
+  "description": "Efficiently select unique, non-repeating random elements from arrays with @smakss/random-array-element. Ideal for varied applications needing random but exhaustive array item selection.",
   "devDependencies": {
     "@commitlint/cli": "^18.2.0",
     "@commitlint/config-conventional": "^18.1.0",
@@ -27,9 +27,28 @@
     "import": "./dist/esm/index.js",
     "require": "./dist/cjs/index.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/SMAKSS/random-array-element#readme",
-  "keywords": ["npm", "yarn", "array", "SMAKSS", "random", "CommonJS", "EcmaScript", "Typescript", "random-index", "random-array-element", "random-element-without-repeat", "random-array-element-without-repetition"],
+  "keywords": [
+    "random-element-selection",
+    "unique-array-elements",
+    "non-repeating-random",
+    "array-element-picker",
+    "random-array-element",
+    "random-index",
+    "random-array-element-without-repetition",
+    "random-element-without-repeat",
+    "npm",
+    "yarn",
+    "array",
+    "SMAKSS",
+    "random",
+    "CommonJS",
+    "EcmaScript",
+    "Typescript"
+  ],
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -50,5 +69,5 @@
   },
   "type": "module",
   "types": "lib",
-  "version": "2.0.0"
+  "version": "2.0.1"
 }
