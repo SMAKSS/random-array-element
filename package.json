@@ -6,7 +6,7 @@
   "description": "Efficiently select unique, non-repeating random elements from arrays with @smakss/random-array-element. Ideal for varied applications needing random but exhaustive array item selection.",
   "devDependencies": {
     "@commitlint/cli": "^18.2.0",
-    "@commitlint/config-conventional": "^18.1.0",
+    "@commitlint/config-conventional": "^18.4.2",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.5",
