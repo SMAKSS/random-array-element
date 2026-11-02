@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/@smakss/random-array-element) ![NPM](https://img.shields.io/npm/l/@smakss/random-array-element) ![npm](https://img.shields.io/npm/dt/@smakss/random-array-element) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@smakss/random-array-element)
 
-Selecting a random element from an array is simple with `Math.random()`. However, if you need to ensure that each element is only selected once until all elements have been chosen, `@smakss/random-array-element` is the ideal solution. Utilizing closures, this package allows you to initialize a function once and then repeatedly obtain unique, randomly-selected elements from your array, without repeats until the array is exhausted.
+If you need to ensure that each element is selected only once until all elements have been chosen, `@smakss/random-array-element` lets you initialize a function and repeatedly obtain unique selections without repeats until the array is exhausted. It uses the Web Crypto API for selection and throws if secure randomness is unavailable.
+
+Node.js 20 or later is required. In browsers, the Web Crypto API must be available.
 
 ## Demo
 
