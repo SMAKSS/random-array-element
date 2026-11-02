@@ -16,12 +16,12 @@ or
 
 ## Installation
 
-Install the package using npm or Yarn:
+Install the package using npm or pnpm:
 
 ```bash
-npm i @smakss/random-array-element
+npm install @smakss/random-array-element
 # or
-yarn add @smakss/random-array-element
+pnpm add @smakss/random-array-element
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ yarn add @smakss/random-array-element
 To include it with CommonJS module you can do this:
 
 ```js
-const randomArrayElement = require('@smakss/random-array-element');
+const { default: randomArrayElement } = require('@smakss/random-array-element');
 ```
 
 For ECMAScript modules:
@@ -65,3 +65,18 @@ Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for g
 ## Code of Conduct
 
 To ensure a welcoming and safe community, our [Code of Conduct](./CODE_OF_CONDUCT.md) outlines expected behaviors for all participants.
+
+## Local playground
+
+This repository includes a Vite playground linked to the package through the pnpm workspace. Try the current local build without publishing a package version:
+
+```sh
+pnpm install
+pnpm run dev:playground
+```
+
+To build the playground app, run this from the package root:
+
+~~~sh
+pnpm run build:playground
+~~~
