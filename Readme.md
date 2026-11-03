@@ -8,10 +8,6 @@ Node.js 20 or later is required. In browsers, the Web Crypto API must be availab
 
 ## Demo
 
-You can check the [working demo](https://runkit.com/smakss/random-array-element) on RunKit.
-
-or
-
 [![View @smakss/random-array-element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/smakss-random-array-element-7yizos?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Installation
